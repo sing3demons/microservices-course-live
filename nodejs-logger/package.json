@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-logger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/app.ts",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "winston": "^3.10.0"
+  }
+}

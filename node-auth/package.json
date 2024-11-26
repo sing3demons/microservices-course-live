@@ -1,0 +1,27 @@
+{
+  "name": "node-auth-jwt",
+  "version": "1.0.0",
+  "description": "Node.js authentication with JWT",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "module": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sing3demons/node-auth-jwt.git"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
+    "typedoc": "^0.24.8",
+    "typescript": "^5.1.6"
+  }
+}
